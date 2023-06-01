@@ -30,11 +30,12 @@ function RecipeCreate({ onCreate }) {
       <table>
         <tbody>
           <tr>
-            <td>
+            {/* <td>
               <label htmlFor="name">Name:</label>
-            </td>
+            </td> */}
             <td>
               <input
+                placeholder="Name"
                 type="text"
                 id="name"
                 name="name"
@@ -43,13 +44,14 @@ function RecipeCreate({ onCreate }) {
                 required
               />
             </td>
-          </tr>
-          <tr>
-            <td>
+            {/* </tr> */}
+            {/* <tr> */}
+            {/* <td>
               <label htmlFor="cuisine">Cuisine:</label>
-            </td>
+            </td> */}
             <td>
               <input
+                placeholder="Cuisine"
                 type="text"
                 id="cuisine"
                 name="cuisine"
@@ -58,13 +60,14 @@ function RecipeCreate({ onCreate }) {
                 required
               />
             </td>
-          </tr>
-          <tr>
-            <td>
+            {/* </tr> */}
+            {/* <tr> */}
+            {/* <td>
               <label htmlFor="photo">Photo URL:</label>
-            </td>
+            </td> */}
             <td>
               <input
+                placeholder="URL"
                 type="text"
                 id="photo"
                 name="photo"
@@ -73,13 +76,14 @@ function RecipeCreate({ onCreate }) {
                 required
               />
             </td>
-          </tr>
-          <tr>
-            <td>
+            {/* </tr> */}
+            {/* <tr> */}
+            {/* <td>
               <label htmlFor="ingredients">Ingredients:</label>
-            </td>
+            </td> */}
             <td>
               <textarea
+                placeholder="Ingredients"
                 id="ingredients"
                 name="ingredients"
                 value={formData.ingredients}
@@ -87,13 +91,14 @@ function RecipeCreate({ onCreate }) {
                 required
               ></textarea>
             </td>
-          </tr>
-          <tr>
-            <td>
+            {/* </tr> */}
+            {/* <tr> */}
+            {/* <td>
               <label htmlFor="preparation">Preparation:</label>
-            </td>
+            </td> */}
             <td>
               <textarea
+                placeholder="Preparation"
                 id="preparation"
                 name="preparation"
                 value={formData.preparation}
@@ -101,9 +106,9 @@ function RecipeCreate({ onCreate }) {
                 required
               ></textarea>
             </td>
-          </tr>
-          <tr>
-            <td></td>
+            {/* </tr> */}
+            {/* <tr> */}
+            {/* <td></td> */}
             <td>
               <button type="submit">Create</button>
             </td>
