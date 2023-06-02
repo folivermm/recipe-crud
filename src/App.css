@@ -64,3 +64,7 @@ table {
 img {
   width: 100%
 }
+
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
