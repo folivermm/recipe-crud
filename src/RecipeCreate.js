@@ -30,9 +30,7 @@ function RecipeCreate({ onCreate }) {
       <table>
         <tbody>
           <tr>
-            {/* <td>
-              <label htmlFor="name">Name:</label>
-            </td> */}
+
             <td>
               <input
                 placeholder="Name"
@@ -44,11 +42,7 @@ function RecipeCreate({ onCreate }) {
                 required
               />
             </td>
-            {/* </tr> */}
-            {/* <tr> */}
-            {/* <td>
-              <label htmlFor="cuisine">Cuisine:</label>
-            </td> */}
+
             <td>
               <input
                 placeholder="Cuisine"
@@ -76,11 +70,7 @@ function RecipeCreate({ onCreate }) {
                 required
               />
             </td>
-            {/* </tr> */}
-            {/* <tr> */}
-            {/* <td>
-              <label htmlFor="ingredients">Ingredients:</label>
-            </td> */}
+
             <td>
               <textarea
                 placeholder="Ingredients"
@@ -91,11 +81,7 @@ function RecipeCreate({ onCreate }) {
                 required
               ></textarea>
             </td>
-            {/* </tr> */}
-            {/* <tr> */}
-            {/* <td>
-              <label htmlFor="preparation">Preparation:</label>
-            </td> */}
+
             <td>
               <textarea
                 placeholder="Preparation"
@@ -106,9 +92,7 @@ function RecipeCreate({ onCreate }) {
                 required
               ></textarea>
             </td>
-            {/* </tr> */}
-            {/* <tr> */}
-            {/* <td></td> */}
+
             <td>
               <button type="submit">Create</button>
             </td>
